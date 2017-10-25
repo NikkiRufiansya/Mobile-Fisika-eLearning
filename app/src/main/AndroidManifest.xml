@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.nikki.e_learning">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Buemy.com"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SpalshScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:label="Login" />
+        <activity
+            android:name=".MainActivity"
+            android:label="Menu" />
+        <activity
+            android:name=".RegisterActivity"
+            android:label="Regitrasi" />
+        <activity
+            android:name=".UsersListActivity"
+            android:label="Buemy.com" />
+        <activity
+            android:name=".About"
+            android:label="About" />
+        <activity
+            android:name=".Materi"
+            android:label="Materi" />
+        <activity
+            android:name=".Soal"
+            android:label="Contoh Soal" />
+        <activity android:name=".listVideo"
+            android:label="Video Materi Fisika"/>
+    </application>
+
+</manifest>
